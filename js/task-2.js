@@ -12,7 +12,7 @@ function calcAverageCalories(days) {
         day++;
     }
     
-    if (caloriesAllDay === 0) {
+    if (days.length === 0) {
         return 0;
 }
     return caloriesAllDay/day;
